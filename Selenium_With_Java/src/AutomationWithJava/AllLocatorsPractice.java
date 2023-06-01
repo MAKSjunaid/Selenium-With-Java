@@ -30,7 +30,5 @@ public class AllLocatorsPractice {
 		driver.findElement(By.cssSelector("input[placeholder='Phone Number']")).sendKeys("9052864329");
 		driver.findElement(By.className("reset-pwd-btn")).click();
 		System.out.println(driver.findElement(By.xpath("//form/p[1]")).getText());
-
 	}
-
 }
