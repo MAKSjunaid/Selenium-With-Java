@@ -36,7 +36,7 @@ public class InsideDropdownUsingWhile {
 			driver.findElement(By.id("hrefIncAdt")).click();
 		}
 		driver.findElement(By.id("btnclosepaxoption")).click();
-//		Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(), "5 Adult");                             TO VALIDATE WITHOUT COLSOLE/PRINTING/WATCHING IN IT.
+//Assert.assertEquals(driver.findElement(By.id("divpaxinfo")).getText(), "5 Adult");TO VALIDATE WITHOUT COLSOLE/PRINTING/WATCHING IN IT.
 		
 		System.out.println("After selecting passengers "+driver.findElement(By.id("divpaxinfo")).getText());
 	}
